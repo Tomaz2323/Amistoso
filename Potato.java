@@ -92,8 +92,8 @@ public class Potato extends OpMode {
             // Após 1.5 segundos da ativação dos motores...
             if (timerDoShooter.seconds() > 1.5) {
                 // Levanta o indexer em 45 graus (36 ticks)
-                indexer.setTargetPosition(-36);
-                indexer.setPower(0.6);
+                indexer.setTargetPosition(46);
+                indexer.setPower(0.8);
 
                 // Finaliza a rotina de espera
                 rotinaDeTiroAtiva = false;
